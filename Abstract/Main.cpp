@@ -9,6 +9,7 @@ int main() {
 	for (int i = 0; i < characters.size(); i++)
 	{
 		characters[i]->draw();
+		cout << characters[i];
 		delete characters[i];
 	}
 }
