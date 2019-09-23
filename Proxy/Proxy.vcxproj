@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{41A5C0CE-6EEC-4267-8A54-EAB9CCA31C2E}</ProjectGuid>
+    <ProjectGuid>{756A8F3F-132E-4D52-94C8-58DC15BDC118}</ProjectGuid>
     <RootNamespace>Proxy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -123,14 +123,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Phil%27s Module\Proxy\Graphic.cpp" />
-    <ClCompile Include="..\..\Phil%27s Module\Proxy\main.cpp" />
-    <ClCompile Include="..\..\Phil%27s Module\Proxy\Proxy.cpp" />
+    <ClInclude Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\Proxy\Graphic.h" />
+    <ClInclude Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\Proxy\GraphicProxy.h" />
+    <ClInclude Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\Proxy\IGraphic.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Phil%27s Module\Proxy\Graphic.h" />
-    <ClInclude Include="..\..\Phil%27s Module\Proxy\IGraphic.h" />
-    <ClInclude Include="GraphicProxy.h" />
+    <ClCompile Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\Proxy\Graphic.cpp" />
+    <ClCompile Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\Proxy\main.cpp" />
+    <ClCompile Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\Proxy\Proxy.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

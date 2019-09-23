@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Phil%27s Module\BridgePattern\main.cpp">
+    <ClCompile Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\BridgePattern\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -13,3 +13,4 @@ private:
 	Graphic* getInstance(void);
 };
 #endif
+

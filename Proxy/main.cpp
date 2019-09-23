@@ -8,4 +8,5 @@ int main(void)
 	GraphicProxy gp;
 	gp.Draw();
 	gp.~GraphicProxy();
+	system("pause");
 }

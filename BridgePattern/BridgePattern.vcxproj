@@ -20,7 +20,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{1964C69C-1472-41DE-B427-A598B5BDE27E}</ProjectGuid>
+    <ProjectGuid>{AED5FE3D-BBD2-45B4-9573-35FAECD35353}</ProjectGuid>
     <RootNamespace>BridgePattern</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -123,7 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Phil%27s Module\BridgePattern\main.cpp" />
+    <ClCompile Include="..\..\..\Phil%27s Module\AbstractBridgeProxy_C00157047\BridgePattern\main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

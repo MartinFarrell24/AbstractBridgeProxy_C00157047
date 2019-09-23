@@ -17,5 +17,6 @@ private:
 int main()
 {
 	HandleToCharacter handle; handle->Print();
+	cout << handle.operator->();
 	delete handle.operator->();
 }
